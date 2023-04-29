@@ -1,0 +1,266 @@
+.navbar {
+  background-color: #f6e0b5 !important;
+  font-family: "DynaPuff";
+}
+
+.navbar-nav .nav-link:hover {
+  color: #b4b4b4;
+}
+
+.navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #b4b4b4;
+}
+
+#hero {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.hero-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 30px;
+}
+
+.hero-content {
+  flex-basis: 50%;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+#hero h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  font-family: "DynaPuff";
+}
+
+#hero p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #6c757d;
+}
+
+#hero .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+#hero .btn-primary:hover {
+  background-color: #0062cc;
+  transform: translateY(-2px);
+}
+
+.hero-image {
+  flex-basis: 50%;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    padding: 0 15px;
+  }
+
+  .hero-content {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .hero-image {
+    flex-basis: 100%;
+  }
+}
+
+#rofid {
+  margin-top: 7%;
+}
+
+.rofid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.rofid-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 50px;
+}
+
+.rofid-content {
+  flex-basis: calc(50% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#rofid-hse {
+  margin-top: 8%;
+}
+
+#putri {
+  margin-top: 7%;
+}
+
+.putri-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.putri-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 50px;
+}
+
+.putri-content {
+  flex-basis: calc(50% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#putri-hse {
+  margin-top: 8%;
+}
+
+#devia {
+  margin-top: 7%;
+}
+
+.devia-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.devia-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 50px;
+}
+
+.devia-content {
+  flex-basis: calc(50% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#devia-hse {
+  margin-top: 8%;
+}
+
+#stella {
+  margin-top: 7%;
+}
+
+.stella-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.stella-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 50px;
+}
+
+.stella-content {
+  flex-basis: calc(50% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#stella-hse {
+  margin-top: 8%;
+}
+
+#evi {
+  margin-top: 7%;
+}
+
+.evi-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.evi-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 50px;
+}
+
+.evi-content {
+  flex-basis: calc(50% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#evi-hse {
+  margin-top: 8%;
+}
+
+#contact {
+  margin-top: 8%;
+}
+
+.contact-form button {
+  margin-top: 3%;
+}
